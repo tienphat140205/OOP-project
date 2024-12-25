@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane prefHeight="263.0" prefWidth="177.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sourceCode.UserControllers.BookViews.BookGridController">
+   <children>
+      <AnchorPane prefHeight="263.0" prefWidth="177.0" style="-fx-border-color: #424874; -fx-border-width: 1; -fx-background-color: #F4EEFF;" stylesheets="@../UserCSS/BookGrid.css">
+        <Button layoutX="47.0" layoutY="226.0" mnemonicParsing="false" onAction="#showBook" prefHeight="23.0" prefWidth="84.0" text="Detail" />
+        <StackPane layoutX="21.0" prefHeight="174.0" prefWidth="137.0">
+          <ImageView fx:id="bookCover" fitHeight="151.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/templateCover.png" />
+               </image></ImageView>
+        </StackPane>
+         <TextArea fx:id="bookTitle" layoutX="28.0" layoutY="174.0" prefHeight="42.0" prefWidth="122.0" wrapText="true" />
+      </AnchorPane>
+   </children>
+</AnchorPane>

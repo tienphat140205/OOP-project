@@ -1,0 +1,101 @@
+#myPane {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20;
+    -fx-border-color: #424874;
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+    -fx-padding: 10px;
+}
+
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 7;
+    -fx-border-color: #424874;
+    -fx-border-width: 1;
+    -fx-border-radius: 7;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+    -fx-padding: 5px;
+}
+
+.text-field:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+
+.choice-box {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5;
+    -fx-border-color: #424874;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+
+.choice-box .label {
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: lighter;
+    -fx-text-fill: #424874;
+}
+
+.choice-box:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+
+#password {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 7;
+    -fx-border-color: #424874;
+    -fx-border-width: 1;
+    -fx-border-radius: 7;
+    -fx-prompt-text-fill: #F4EEFF;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: #424874;
+    -fx-padding: 5px;
+}
+
+.button {
+    -fx-border-width: 0.5;
+    -fx-border-color: #424874;
+    -fx-background-color: #A6B1E1;
+    -fx-text-fill: #424874;
+    -fx-alignment: BASELINE_CENTER;
+    -fx-font-size: 20px;
+    -fx-font-family: "Open Sans";
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+}
+
+.button:hover {
+    -fx-text-fill: WHITE;
+    -fx-background-color: #424874;
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+
+.button:pressed {
+    -fx-background-color: #424874;
+    -fx-text-fill: WHITE;
+    -fx-translate-y: 3px;
+}
+
+.date-picker {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 7;
+    -fx-border-width: 0;
+    -fx-border-radius: 7;
+    -fx-prompt-text-fill: #F4EEFF;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+}
+
+.text-area {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 7;
+    -fx-border-color: #424874;
+    -fx-border-width: 1;
+    -fx-border-radius: 7;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+}
+
+.text-area:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}

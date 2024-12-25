@@ -1,0 +1,56 @@
+#title {
+    -fx-font-size: 25;
+    -fx-text-fill: #424874;
+    -fx-font-family: "Times New Roman";
+}
+.label {
+    -fx-font-size: 12;
+    -fx-text-fill: #424874;
+    -fx-font-family: "Open Sans";
+}
+.label:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 5, 0, 0, 0);
+}
+.button {
+    -fx-background-color: #DCD6F7;
+    -fx-background-radius: 15px;
+    -fx-text-fill: #424874;
+    -fx-alignment: BASELINE_CENTER;
+    -fx-font-size: 15px;
+    -fx-font-family: "Open Sans";
+}
+
+.button:hover {
+    -fx-background-color: #424874;
+    -fx-text-fill: WHITE;
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+
+.button:pressed {
+    -fx-background-color: #424874;
+    -fx-text-fill: WHITE;
+    -fx-translate-y: 3px;
+}
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 20, 0, 0, 0);
+}
+.stack-pane {
+    -fx-alignment: BASELINE_CENTER;
+}
+.text-area {
+    -fx-background-color: transparent;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+}
+.text-area .content {
+    -fx-background-color: WHITE;
+}
+.text-area .scroll-bar:vertical {
+    -fx-opacity: 0;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+}

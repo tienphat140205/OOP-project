@@ -1,0 +1,176 @@
+.button {
+    -fx-background-color: TRANSPARENT;
+    -fx-text-fill: #ffffff;
+    -fx-alignment: CENTER;
+    -fx-font-size: 30px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-font-weight: lighter;
+    -fx-border-color: TRANSPARENT;
+    -fx-border-width: 0;
+    -fx-effect: dropshadow(three-pass-box, rgb(220, 214, 247), 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-text-fill: #424874;
+    -fx-scale-x: 1.1;
+    -fx-sclae-y: 1.1;
+}
+
+#homeButton {
+    -fx-font-size: 45px;
+}
+
+#currentButton {
+    -fx-text-fill: #424874;
+    -fx-scale-x: 1.1;
+    -fx-sclae-y: 1.1;
+}
+
+#searchBar {
+    -fx-background-color: #DCD6F7;
+    -fx-background-radius: 10 0 0 10;
+    -fx-border-color: #424874;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 10 0 0 10;
+    -fx-prompt-text-fill: #424874;
+    -fx-font-size: 15px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: lighter;
+    -fx-text-fill: #424874;
+    -fx-padding: 10px;
+    -fx-background-insets: 0;
+    -fx-faint-focus-color: transparent;
+}
+
+#searchBar:hover, #choiceBox:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+
+#choiceBox {
+    -fx-background-color: #DCD6F7;
+    -fx-background-radius: 0 10 10 0;
+    -fx-border-color: #424874;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 0 10 10 0;
+    -fx-padding: 0px;
+    -fx-background-insets: 0;
+}
+
+#choiceBox .label {
+    -fx-font-size: 15px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: lighter;
+    -fx-text-fill: #424874;
+}
+
+.list-view .cell {
+    -fx-background-color: TRANSPARENT;
+    -fx-background: TRANSPARENT;
+    -fx-border-color: #424874;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+}
+
+.list-view .cell:hover {
+    -fx-background-color: #DCD6F7;
+}
+
+.split-pane {
+    -fx-border-radius: 0;
+    -fx-border-color: #424874;
+    -fx-border-width: 0.5;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+}
+
+.split-pane .split-pane-divider {
+    -fx-padding: 1;
+    -fx-border-width: 5px;
+    -fx-background-color: transparent;
+}
+
+.stack-pane {
+    -fx-alignment: BASELINE_CENTER;
+}
+
+#bookImage {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 20, 0, 0, 0);
+}
+
+#bookTitle {
+    -fx-font-size: 28;
+    -fx-text-fill: #424874;
+    -fx-font-family: "Times New Roman";
+    -fx-alignment: CENTER-LEFT;
+}
+
+#myScrollPane {
+    -fx-background-color: TRANSPARENT;
+    -fx-background: TRANSPARENT;
+    -fx-border-color: TRANSPARENT;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+}
+
+#myScrollPane .scroll-bar {
+    -fx-background-color: TRANSPARENT;
+    -fx-background: TRANSPARENT;
+    -fx-border-color: TRANSPARENT;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+}
+
+.label {
+    -fx-font-size: 12;
+    -fx-text-fill: #424874;
+    -fx-font-family: "Open Sans";
+}
+
+#returnBook, #sendFeedback {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #424874;
+    -fx-border-width: 0.5;
+    -fx-text-fill: #424874;
+    -fx-font-size: 15px;
+    -fx-font-family: "Open Sans";
+}
+
+#sendFeedback {
+    -fx-background-radius: 10 10 30 10;
+    -fx-border-radius: 10 10 30 10;
+}
+
+#returnBook {
+    -fx-background-radius: 10 10 10 30;
+    -fx-border-radius: 10 10 10 30;
+}
+
+#returnBook:hover, #sendFeedback:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+    -fx-background-color: #424874;
+    -fx-text-fill: #FFFFFF;
+}
+
+#myListView .list-cell {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 4px;
+}
+
+#myListView .list-cell:hover {
+    -fx-background-color: #A6B1E1;
+}
+
+#myListView .thumb {
+    -fx-background-color: #A6B1E1;
+}
+
+#myListView .track, #myListView .increment-arrow, #myListView .decrement-arrow {
+    -fx-background-color: #F4EEFF;
+}
+#logout {
+    -fx-background-color: TRANSPARENT;
+}
+

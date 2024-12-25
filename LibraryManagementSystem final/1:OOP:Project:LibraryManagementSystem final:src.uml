@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/tienphat/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/Documents/2024.1/OOP/Project/LibraryManagementSystem final/src</OriginalElement>
+  <nodes>
+    <node x="2575.0" y="2167.5">sourceCode.UserControllers.Function.AddFeedback</node>
+    <node x="555.0" y="2443.0">sourceCode.AdminControllers.Function.EditBook</node>
+    <node x="1588.5" y="-212.5">sourceCode.Models.Feedback</node>
+    <node x="1950.0" y="1796.0">sourceCode.Services.DatabaseOperation</node>
+    <node x="-30.0" y="-116.0">sourceCode.UserControllers.Function.Chatbot</node>
+    <node x="1419.5" y="384.0">sourceCode.Services.SwitchScene</node>
+    <node x="1452.0" y="2168.0">sourceCode.LoginController</node>
+    <node x="1095.0" y="2095.0">sourceCode.UserControllers.Function.UpdateFeedback</node>
+    <node x="349.5" y="1527.0">sourceCode.UserControllers.BookViews.BookGridController</node>
+    <node x="-239.0" y="1820.0">sourceCode.Services.GoogleBooksAPI</node>
+    <node x="2252.5" y="2167.5">sourceCode.Services.DatabaseConnection</node>
+    <node x="1473.0" y="1516.0">sourceCode.UserControllers.TicketController</node>
+    <node x="195.0" y="2443.0">sourceCode.AdminControllers.Function.AddBook</node>
+    <node x="1885.0" y="2168.0">sourceCode.Services.DatabaseConnectionTest</node>
+    <node x="793.0" y="1736.0">sourceCode.AdminControllers.BookController</node>
+    <node x="115.0" y="1783.0">sourceCode.UserControllers.BookViews.BookDetailController</node>
+    <node x="1992.0" y="383.5">sourceCode.Models.Ticket</node>
+    <node x="-233.5" y="287.5">sourceCode.Models.Book</node>
+    <node x="2633.0" y="1772.0">sourceCode.UserControllers.ProfileController</node>
+    <node x="2313.0" y="1480.0">sourceCode.AdminControllers.UserController</node>
+    <node x="1771.0" y="2492.0">sourceCode.UserControllers.BookViews.BookCellController</node>
+    <node x="1313.0" y="1784.0">sourceCode.AdminControllers.HomeController</node>
+    <node x="2035.0" y="2443.0">sourceCode.AdminControllers.Function.AddUser</node>
+    <node x="1633.0" y="1784.0">sourceCode.AdminControllers.FeedbackController</node>
+    <node x="2395.0" y="2419.0">sourceCode.AdminControllers.Function.EditUser</node>
+    <node x="1793.0" y="1504.0">sourceCode.AdminControllers.TicketController</node>
+    <node x="-47.0" y="1492.0">sourceCode.UserControllers.LibraryController</node>
+    <node x="2501.0" y="-308.5">sourceCode.Models.User</node>
+    <node x="1346.0" y="2480.0">sourceCode.Start</node>
+    <node x="945.5" y="2468.0">sourceCode.Services.GoogleBooksAPITest</node>
+    <node x="953.0" y="1492.0">sourceCode.UserControllers.FeedbackController</node>
+    <node x="735.0" y="2179.5">sourceCode.AdminControllers.Function.ShowUser</node>
+    <node x="375.0" y="2167.5">sourceCode.AdminControllers.Function.ShowBook</node>
+    <node x="473.0" y="1784.0">sourceCode.UserControllers.BookcaseController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sourceCode.UserControllers.BookcaseController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="609.0" y="976.0" />
+      <point x="1569.0" y="976.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.LibraryController" target="sourceCode.Models.Book" relationship="TO_MANY">
+      <point x="-68.0" y="-104.0" />
+      <point x="21.0" y="1416.0" />
+      <point x="-142.25" y="1416.0" />
+      <point x="-91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.Services.DatabaseOperation" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-80.0" />
+      <point x="2189.0" y="1256.0" />
+      <point x="269.0" y="1256.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.FeedbackController" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-104.0" />
+      <point x="1089.0" y="1376.0" />
+      <point x="269.0" y="1376.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.UserController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-116.0" />
+      <point x="2449.0" y="1216.0" />
+      <point x="1569.0" y="1216.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.TicketController" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-80.0" />
+      <point x="1609.0" y="1356.0" />
+      <point x="269.0" y="1356.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.Function.EditBook" target="sourceCode.AdminControllers.BookController" relationship="DEPENDENCY">
+      <point x="0.0" y="-93.0" />
+      <point x="709.0" y="1996.0" />
+      <point x="769.0" y="1996.0" />
+      <point x="769.0" y="1716.0" />
+      <point x="929.0" y="1716.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.Function.AddBook" target="sourceCode.AdminControllers.BookController" relationship="DEPENDENCY">
+      <point x="0.0" y="-93.0" />
+      <point x="349.0" y="2156.0" />
+      <point x="709.0" y="2156.0" />
+      <point x="709.0" y="1996.0" />
+      <point x="769.0" y="1996.0" />
+      <point x="769.0" y="1716.0" />
+      <point x="929.0" y="1716.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.ProfileController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-104.0" />
+      <point x="2769.0" y="1716.0" />
+      <point x="2689.0" y="1716.0" />
+      <point x="2689.0" y="1196.0" />
+      <point x="1569.0" y="1196.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.ProfileController" target="sourceCode.Models.User" relationship="DEPENDENCY">
+      <point x="0.0" y="-104.0" />
+      <point x="2769.0" y="1716.0" />
+      <point x="2689.0" y="1716.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.TicketController" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="1929.0" y="1296.0" />
+      <point x="269.0" y="1296.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.FeedbackController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="1769.0" y="1276.0" />
+      <point x="1569.0" y="1276.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.Services.DatabaseOperation" target="sourceCode.Models.Feedback" relationship="DEPENDENCY">
+      <point x="0.0" y="-80.0" />
+      <point x="2189.0" y="1096.0" />
+      <point x="1769.0" y="1096.0" />
+      <point x="0.0" y="188.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.FeedbackController" target="sourceCode.Models.Feedback" relationship="DEPENDENCY">
+      <point x="0.0" y="-104.0" />
+      <point x="1089.0" y="1036.0" />
+      <point x="1769.0" y="1036.0" />
+      <point x="0.0" y="188.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.FeedbackController" target="sourceCode.Models.User" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="1769.0" y="1116.0" />
+      <point x="2689.0" y="1116.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.BookController" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-140.0" />
+      <point x="929.0" y="1396.0" />
+      <point x="269.0" y="1396.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.FeedbackController" target="sourceCode.Models.Feedback" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="188.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.TicketController" target="sourceCode.Models.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-80.0" />
+      <point x="1609.0" y="1056.0" />
+      <point x="2189.0" y="1056.0" />
+      <point x="0.0" y="212.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.TicketController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="1929.0" y="1236.0" />
+      <point x="1569.0" y="1236.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.TicketController" target="sourceCode.Models.User" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="1929.0" y="1136.0" />
+      <point x="2689.0" y="1136.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="sourceCode.Services.GoogleBooksAPI" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-56.0" />
+      <point x="-91.0" y="1436.0" />
+      <point x="269.0" y="1436.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.Function.AddUser" target="sourceCode.AdminControllers.UserController" relationship="DEPENDENCY">
+      <point x="0.0" y="-93.0" />
+      <point x="2189.0" y="2136.0" />
+      <point x="2549.0" y="2136.0" />
+      <point x="2549.0" y="1896.0" />
+      <point x="2609.0" y="1896.0" />
+      <point x="2609.0" y="1456.0" />
+      <point x="2449.0" y="1456.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.Function.UpdateFeedback" target="sourceCode.UserControllers.FeedbackController" relationship="DEPENDENCY">
+      <point x="0.0" y="-141.0" />
+      <point x="1249.0" y="1456.0" />
+      <point x="1089.0" y="1456.0" />
+      <point x="0.0" y="-104.0" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.Function.EditUser" target="sourceCode.UserControllers.ProfileController" relationship="DEPENDENCY">
+      <point x="0.0" y="-117.0" />
+      <point x="2549.0" y="2156.0" />
+      <point x="2929.0" y="2156.0" />
+      <point x="2929.0" y="1736.0" />
+      <point x="2769.0" y="1736.0" />
+      <point x="0.0" y="-104.0" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.Function.EditUser" target="sourceCode.AdminControllers.UserController" relationship="DEPENDENCY">
+      <point x="0.0" y="-117.0" />
+      <point x="2549.0" y="1896.0" />
+      <point x="2609.0" y="1896.0" />
+      <point x="2609.0" y="1456.0" />
+      <point x="2449.0" y="1456.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.LibraryController" target="sourceCode.UserControllers.Function.Chatbot" relationship="DEPENDENCY">
+      <point x="68.0" y="-104.0" />
+      <point x="157.0" y="1456.0" />
+      <point x="149.0" y="1456.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.TicketController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-80.0" />
+      <point x="1609.0" y="1336.0" />
+      <point x="1569.0" y="1336.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.BookcaseController" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="609.0" y="1416.0" />
+      <point x="269.0" y="1416.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.FeedbackController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-104.0" />
+      <point x="1089.0" y="1016.0" />
+      <point x="1569.0" y="1016.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.Services.DatabaseOperation" target="sourceCode.Models.User" relationship="DEPENDENCY">
+      <point x="0.0" y="-80.0" />
+      <point x="2189.0" y="1156.0" />
+      <point x="2689.0" y="1156.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.LibraryController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="68.0" y="-104.0" />
+      <point x="157.0" y="1456.0" />
+      <point x="149.0" y="1456.0" />
+      <point x="149.0" y="956.0" />
+      <point x="1569.0" y="956.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.BookController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-140.0" />
+      <point x="929.0" y="996.0" />
+      <point x="1569.0" y="996.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.LoginController" target="sourceCode.AdminControllers.UserController" relationship="DEPENDENCY">
+      <point x="0.0" y="-68.0" />
+      <point x="1549.0" y="2056.0" />
+      <point x="2549.0" y="2056.0" />
+      <point x="2549.0" y="1896.0" />
+      <point x="2609.0" y="1896.0" />
+      <point x="2609.0" y="1456.0" />
+      <point x="2449.0" y="1456.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="sourceCode.Services.DatabaseOperation" target="sourceCode.Models.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-80.0" />
+      <point x="0.0" y="212.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.HomeController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="1449.0" y="1496.0" />
+      <point x="1569.0" y="1496.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.Services.DatabaseConnection" target="sourceCode.Services.DatabaseConnection" relationship="DEPENDENCY">
+      <point x="-116.5" y="-0.0" />
+      <point x="2209.0" y="2236.0" />
+      <point x="2209.0" y="2336.0" />
+      <point x="2369.0" y="2336.0" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.FeedbackController" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="1769.0" y="1316.0" />
+      <point x="269.0" y="1316.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.TicketController" target="sourceCode.Models.Ticket" relationship="DEPENDENCY">
+      <point x="0.0" y="-92.0" />
+      <point x="1929.0" y="1076.0" />
+      <point x="2189.0" y="1076.0" />
+      <point x="0.0" y="212.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.BookViews.BookDetailController" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-93.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.LoginController" target="sourceCode.Services.SwitchScene" relationship="DEPENDENCY">
+      <point x="0.0" y="-68.0" />
+      <point x="1549.0" y="2076.0" />
+      <point x="1289.0" y="2076.0" />
+      <point x="1289.0" y="1496.0" />
+      <point x="1569.0" y="1496.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+    <edge source="sourceCode.UserControllers.BookViews.BookGridController" target="sourceCode.Models.Book" relationship="DEPENDENCY">
+      <point x="0.0" y="-69.0" />
+      <point x="449.0" y="1436.0" />
+      <point x="269.0" y="1436.0" />
+      <point x="269.0" y="936.0" />
+      <point x="40.25" y="936.0" />
+      <point x="91.25" y="308.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.UserController" target="sourceCode.Models.User" relationship="DEPENDENCY">
+      <point x="0.0" y="-116.0" />
+      <point x="2449.0" y="1176.0" />
+      <point x="2689.0" y="1176.0" />
+      <point x="0.0" y="284.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8457292229045538" showDependencies="true" x="1610.3572686955695" y="213.99553643232417" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

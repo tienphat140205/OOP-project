@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/tienphat/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/Documents/2024.1/OOP/LibraryManagementSystem final</OriginalElement>
+  <nodes>
+    <node x="-211.0" y="2548.5">sourceCode.AdminControllers.FeedbackController</node>
+    <node x="1824.0" y="1417.5">sourceCode.AdminControllers.Function.ShowBook</node>
+    <node x="1994.0" y="-262.0">sourceCode.Services.DatabaseConnectionTest</node>
+    <node x="1818.0" y="1953.5">sourceCode.UserControllers.LibraryController</node>
+    <node x="1479.0" y="1026.0">sourceCode.Services.DatabaseOperation</node>
+    <node x="1737.5" y="125.5">sourceCode.Models.Feedback</node>
+    <node x="1596.0" y="2553.5">sourceCode.AdminControllers.UserController</node>
+    <node x="1635.0" y="-250.0">sourceCode.Start</node>
+    <node x="1335.5" y="-54.5">sourceCode.Models.Book</node>
+    <node x="1218.5" y="-286.5">sourceCode.UserControllers.BookViews.BookGridController</node>
+    <node x="1026.0" y="317.5">sourceCode.Services.DatabaseConnection</node>
+    <node x="1304.0" y="1381.5">sourceCode.AdminControllers.Function.EditBook</node>
+    <node x="874.5" y="-262.0">sourceCode.Services.GoogleBooksAPITest</node>
+    <node x="-171.5" y="1369.5">sourceCode.Services.SwitchScene</node>
+    <node x="670.0" y="305.5">sourceCode.Services.GoogleBooksAPI</node>
+    <node x="481.0" y="1941.5">sourceCode.AdminControllers.HomeController</node>
+    <node x="921.0" y="1941.5">sourceCode.AdminControllers.TicketController</node>
+    <node x="484.0" y="-310.5">sourceCode.UserControllers.Function.AddFeedback</node>
+    <node x="1150.5" y="977.5">sourceCode.LoginController</node>
+    <node x="221.0" y="89.5">sourceCode.Models.Ticket</node>
+    <node x="1174.0" y="2421.5">sourceCode.UserControllers.ProfileController</node>
+    <node x="-1.5" y="1953.5">sourceCode.UserControllers.FeedbackController</node>
+    <node x="944.0" y="1393.5">sourceCode.UserControllers.BookViews.BookDetailController</node>
+    <node x="81.0" y="-298.5">sourceCode.UserControllers.BookViews.BookCellController</node>
+    <node x="-225.0" y="-458.0">sourceCode.Services.rcmbook</node>
+    <node x="1361.0" y="1965.5">sourceCode.UserControllers.TicketController</node>
+    <node x="764.0" y="881.5">sourceCode.AdminControllers.Function.AddBook</node>
+    <node x="583.5" y="1381.5">sourceCode.AdminControllers.Function.EditUser</node>
+    <node x="-210.0" y="-18.5">sourceCode.Models.User</node>
+    <node x="736.5" y="2517.5">sourceCode.AdminControllers.BookController</node>
+    <node x="404.0" y="905.5">sourceCode.AdminControllers.Function.AddUser</node>
+    <node x="322.0" y="2445.5">sourceCode.UserControllers.BookcaseController</node>
+    <node x="182.5" y="1417.5">sourceCode.UserControllers.Function.UpdateFeedback</node>
+    <node x="4.0" y="953.5">sourceCode.AdminControllers.Function.ShowUser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sourceCode.UserControllers.BookcaseController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-320.5" />
+      <point x="458.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.LibraryController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-212.5" />
+      <point x="1978.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.ProfileController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-344.5" />
+      <point x="1338.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.TicketController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-224.5" />
+      <point x="1118.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.BookController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-248.5" />
+      <point x="898.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.HomeController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-224.5" />
+      <point x="678.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.UserController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-212.5" />
+      <point x="1778.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.AdminControllers.FeedbackController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-217.5" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.FeedbackController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-212.5" />
+      <point x="218.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+    <edge source="sourceCode.UserControllers.TicketController" target="sourceCode.Services.SwitchScene" relationship="GENERALIZATION">
+      <point x="0.0" y="-200.5" />
+      <point x="1558.0" y="1906.0" />
+      <point x="-22.0" y="1906.0" />
+      <point x="0.0" y="236.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.4111408027286044" showDependencies="false" x="1280.8679347163093" y="-107.74242819475296" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

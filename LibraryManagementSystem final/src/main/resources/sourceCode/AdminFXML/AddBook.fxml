@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="558.0" prefWidth="601.0" style="-fx-background-color: F4EEFF;" stylesheets="@../AdminCSS/AddUser.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sourceCode.AdminControllers.Function.AddBook">
+  <Pane id="myPane" layoutX="41.0" layoutY="20.0" prefHeight="518.0" prefWidth="520.0">
+    <Text layoutX="25.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ảnh bìa" />
+    <TextField fx:id="ISBN" layoutX="20.0" layoutY="35.0" prefHeight="35.0" prefWidth="154.0" />
+    <Text layoutX="25.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ISBN" />
+    <Text layoutX="190.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tiêu đề" />
+    <TextField fx:id="author" layoutX="20.0" layoutY="107.0" prefHeight="35.0" prefWidth="216.0" />
+    <TextField fx:id="genre" layoutX="245.0" layoutY="107.0" prefHeight="35.0" prefWidth="114.0" />
+    <Text layoutX="287.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ngày sản xuất" />
+    <TextField fx:id="publisher" layoutX="20.0" layoutY="179.0" prefHeight="35.0" prefWidth="253.0" />
+    <Text layoutX="24.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhà sản xuất" />
+    <Text layoutX="25.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tác giả" />
+    <TextField fx:id="imageUrl" layoutX="20.0" layoutY="247.0" prefHeight="35.0" prefWidth="365.0" />
+    <Button layoutX="75.0" layoutY="452.0" mnemonicParsing="false" onAction="#confirmButtonOnAction" prefHeight="30.0" prefWidth="170.0" text="Confirm" />
+    <Button layoutX="258.0" layoutY="452.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="30.0" prefWidth="170.0" text="Cancel" />
+    <Text layoutX="450.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số trang" />
+    <Text layoutX="373.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ngôn ngữ" />
+    <TextField fx:id="publicationDate" layoutX="281.0" layoutY="179.0" prefHeight="35.0" prefWidth="154.0" />
+    <TextArea fx:id="description" layoutX="20.0" layoutY="326.0" prefHeight="108.0" prefWidth="479.0" />
+    <Text layoutX="24.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giới thiệu nội dung" />
+    <TextField fx:id="pageNumber" layoutX="445.0" layoutY="179.0" prefHeight="35.0" prefWidth="54.0" />
+    <TextField fx:id="language" layoutX="367.0" layoutY="107.0" prefHeight="35.0" prefWidth="136.0" />
+    <Text layoutX="251.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thể loại" />
+      <TextField fx:id="quantity" layoutX="399.0" layoutY="247.0" prefHeight="35.0" prefWidth="102.0" />
+      <Text layoutX="407.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số lượng" />
+      <TextField fx:id="title" layoutX="185.0" layoutY="35.0" prefHeight="35.0" prefWidth="319.0" />
+  </Pane>
+</AnchorPane>

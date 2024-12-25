@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" stylesheets="@../AdminCSS/ShowUser.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sourceCode.AdminControllers.Function.ShowUser">
+  <Pane layoutX="1.0" prefHeight="400.0" prefWidth="600.0">
+    <ImageView fitHeight="400.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../Image/userCard.png" />
+    </ImageView>
+    <Button layoutX="521.0" layoutY="44.0" onAction="#confirmButtonOnAction" prefHeight="4.0" prefWidth="29.0" text="X" />
+    <Label fx:id="identityNumber" layoutX="186.0" layoutY="300.0" prefHeight="17.0" prefWidth="179.0" text="001205057599" />
+    <Label id="userID" fx:id="userID" layoutX="275.0" layoutY="160.0" prefHeight="27.0" prefWidth="226.0" text="USERID: XXXX" />
+    <Label fx:id="address" layoutX="186.0" layoutY="340.0" prefHeight="17.0" prefWidth="179.0" text="35 Trần Thái Tông, Cầu Giấy" />
+    <Label fx:id="birth" layoutX="35.0" layoutY="340.0" text="10/07/2005" />
+    <Label fx:id="email" layoutX="415.0" layoutY="340.0" text="optimus1072005@" />
+    <Label id="name" fx:id="name" layoutX="274.0" layoutY="120.0" prefHeight="36.0" prefWidth="283.0" text="SAMPLE NAME" />
+    <Label fx:id="phoneNumber" layoutX="415.0" layoutY="300.0" text="0336334600" />
+    <Label fx:id="gender" layoutX="35.0" layoutY="300.0" text="Nam" />
+  </Pane>
+</AnchorPane>

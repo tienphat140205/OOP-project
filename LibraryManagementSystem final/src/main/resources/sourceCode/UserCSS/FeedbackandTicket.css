@@ -1,0 +1,158 @@
+.button {
+    -fx-background-color: TRANSPARENT; /* Nền trong suốt */
+    -fx-text-fill: #ffffff; /* Màu chữ */
+    -fx-alignment: CENTER;
+    -fx-font-size: 30px;
+    -fx-font-family: "Bernard MT Condensed";
+    -fx-border-width: 0;
+    -fx-effect: dropshadow(three-pass-box, rgb(220, 214, 247), 10, 0, 0, 0);
+}
+.button:hover {
+    -fx-text-fill: #424874;
+    -fx-scale-x: 1.1;
+    -fx-sclae-y: 1.1;
+}
+#homeButton {
+    -fx-font-size: 45px;
+}
+#currentButton {
+    -fx-text-fill: #424874;
+    -fx-scale-x: 1.1;
+    -fx-sclae-y: 1.1;
+}
+#searchButton {
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+}
+
+#searchBar {
+    -fx-background-color: #DCD6F7;
+    -fx-background-radius: 10 0 0 10;
+    -fx-border-color: #424874;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 10 0 0 10;
+    -fx-prompt-text-fill: #424874;
+    -fx-font-size: 15px;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+    -fx-padding: 10px;
+}
+
+#searchBar:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+
+#choiceBox {
+    -fx-background-color: #DCD6F7;
+    -fx-background-radius: 0 10 10 0;
+    -fx-border-color: #424874;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 0 10 10 0;
+    -fx-padding: 0px;
+    -fx-background-insets: 0;
+}
+
+#choiceBox .label {
+    -fx-font-size: 15px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: lighter;
+    -fx-text-fill: #424874;
+}
+
+#choiceBox:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+
+.table-view:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 5, 0, 0, 0);
+}
+
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0 0 0 0;
+    -fx-border-color: #424874;
+    -fx-border-radius: 0 0 0 0;
+    -fx-border-width: 1;
+}
+
+.table-view .column-header {
+    -fx-background-color: #A6B1E1;
+}
+
+.table-view .column-header .label {
+    -fx-background-color: #A6B1E1;
+    -fx-background-radius: 0 0 0 0;
+    -fx-border-width: 0;
+    -fx-text-fill: #424874;
+    -fx-font-size: 15px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: lighter;
+    -fx-padding: 7px;
+    -fx-alignment: CENTER;
+}
+
+.table-view .cell {
+    -fx-background-color: #ffffff;
+    -fx-border-width: 0;
+    -fx-font-size: 13px;
+    -fx-text-fill: #424874;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: lighter;
+    -fx-padding: 5px;
+    -fx-alignment: CENTER;
+}
+
+.table-view .cell:hover {
+    -fx-font-weight: bold;
+}
+
+.table-view .cell:selected {
+    -fx-background-color: #a6b1e1;
+    -fx-text-fill: #424874;
+    -fx-font-weight: bold;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #a6b1e1;
+    -fx-background-size: 0;
+}
+
+#showButton, #removeButton, #editButton {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #424874;
+    -fx-border-width: 0.5;
+    -fx-font-size: 15px;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+}
+
+#showButton {
+    -fx-background-radius: 10 10 10 30;
+    -fx-border-radius: 10 10 10 30;
+}
+
+#removeButton {
+    -fx-background-radius: 10 10 30 10;
+    -fx-border-radius: 10 10 30 10;
+}
+
+#editButton {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+#showButton:hover, #editButton:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+    -fx-background-color: #424874;
+    -fx-text-fill: #FFFFFF;
+}
+
+#removeButton:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+    -fx-background-color: #ff0000;
+    -fx-text-fill: #FFFFFF;
+}
+#logout {
+    -fx-background-color: TRANSPARENT;
+}
+

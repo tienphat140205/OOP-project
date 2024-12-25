@@ -1,0 +1,70 @@
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 7;
+    -fx-border-color: #424874;
+    -fx-border-width: 1;
+    -fx-border-radius: 7;
+    -fx-prompt-text-fill: #F4EEFF;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: lighter;
+    -fx-text-fill: #424874;
+    -fx-padding: 5px;
+    -fx-background-insets: 0;
+    -fx-faint-focus-color: transparent;
+}
+
+.text-field:hover {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 5, 0, 0, 0);
+}
+
+.text-field:focused {
+    -fx-border-color: #424874;
+    -fx-border-width: 1;
+    -fx-border-radius: 7;
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 7;
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 5, 0, 0, 0);
+}
+
+.slider .track {
+    -fx-background-color: #A6B1E1;
+    -fx-background-insets: 0;
+    -fx-background-radius: 3;
+}
+
+.slider .thumb {
+    -fx-background-color: #424874;
+    -fx-background-radius: 10;
+}
+
+.button {
+    -fx-background-color: #F4EEFF;
+    -fx-background-radius: 7;
+    -fx-border-color: #424874;
+    -fx-border-width: 1;
+    -fx-border-radius: 7;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: lighter;
+    -fx-text-fill: #424874;
+    -fx-padding: 5px;
+    -fx-background-insets: 0;
+    -fx-faint-focus-color: transparent;
+}
+
+.button:hover {
+    -fx-text-fill: WHITE;
+    -fx-background-color: #424874;
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+
+.button:pressed {
+    -fx-background-color: #424874;
+    -fx-text-fill: WHITE;
+    -fx-translate-y: 3px;
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+}

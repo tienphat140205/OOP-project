@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #F4EEFF;" stylesheets="@../UserCSS/Library.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sourceCode.UserControllers.LibraryController">
+   <ImageView blendMode="DARKEN" fitHeight="840.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Image/background.jpg" />
+      </image>
+   </ImageView>
+  <Pane layoutX="43.0" layoutY="1.0" prefHeight="94.0" prefWidth="1117.0" style="-fx-background-color: rgb(166, 177, 225); -fx-background-radius: 0 0 50 50;">
+    <effect>
+      <DropShadow height="51.23" radius="25.6175" width="53.24">
+        <color>
+          <Color red="0.7622685432434082" green="0.6342592835426331" blue="1.0" />
+        </color>
+      </DropShadow>
+    </effect>
+    <Button id="switchButton" alignment="BASELINE_LEFT" layoutX="43.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchToMyFeedback" prefHeight="58.0" prefWidth="192.0" text="FEEDBACK" />
+    <Button id="homeButton" alignment="BASELINE_LEFT" layoutX="444.0" layoutY="6.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="230.0" text="LIBRARY">
+    </Button>
+    <Button id="switchButton" alignment="BASELINE_LEFT" layoutX="903.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchToProfile" prefHeight="52.0" prefWidth="174.0" text="PROFILE">
+    </Button>
+    <Button id="switchButton" alignment="BASELINE_LEFT" layoutX="253.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchToMyTicket" prefHeight="58.0" prefWidth="163.0" text="TICKET">
+    </Button>
+    <Button id="switchButton" alignment="BASELINE_LEFT" layoutX="716.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchToBookcase" prefHeight="58.0" prefWidth="163.0" text="BOOKCASE">
+    </Button>
+  </Pane>
+  <SplitPane id="mySplitPane" fx:id="mySplitPane" dividerPositions="0.5" layoutX="70.0" layoutY="113.0" orientation="VERTICAL" prefHeight="673.0" prefWidth="1061.0">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="1059.0">
+      <children>
+        <ScrollPane fx:id="myScrollPane" hbarPolicy="NEVER" layoutX="87.0" prefHeight="600.0" prefWidth="887.0" vbarPolicy="NEVER">
+          <content>
+            <TilePane fx:id="myTilePane" prefHeight="600.0" prefWidth="887.0" tileAlignment="TOP_LEFT" />
+          </content>
+        </ScrollPane>
+      </children>
+    </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="314.0" prefWidth="1059.0" style="-fx-background-color: transparent;">
+      <ListView id="myListView" fx:id="myListView" layoutX="30.0" layoutY="67.0" orientation="HORIZONTAL" prefHeight="288.0" prefWidth="1000.0" style="-fx-border-color: #424874;" />
+      <ChoiceBox id="choiceBox" fx:id="choiceBox" layoutX="865.0" layoutY="14.0" prefHeight="43.0" prefWidth="165.0" />
+      <TextField id="searchBar" fx:id="searchBar" layoutX="206.0" layoutY="14.0" prefHeight="43.0" prefWidth="648.0" promptText="Type title, author name, isbn..." />
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="802.0" layoutY="14.0" onMouseClicked="#searchBook" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../Image/searchIcon.png" />
+        </image>
+      </ImageView>
+         <Button id="showRecommendBook" fx:id="showRecommendedBook" layoutX="30.0" layoutY="14.0" mnemonicParsing="false" onAction="#showRecommendedBook" prefHeight="43.0" prefWidth="165.0" text="Ẩn gợi ý sách" />
+    </AnchorPane>
+  </SplitPane>
+  <Button id="logout" layoutX="1110.0" layoutY="452.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="58.0" prefWidth="43.0" />
+   <ImageView fx:id="chatbotIcon" fitHeight="94.0" fitWidth="102.0" layoutX="1092.0" layoutY="634.0" onMouseClicked="#showChatbot" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Image/chatbot.png" />
+      </image>
+   </ImageView>
+</AnchorPane>

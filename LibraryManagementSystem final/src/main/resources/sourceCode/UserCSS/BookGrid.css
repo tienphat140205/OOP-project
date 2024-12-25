@@ -1,0 +1,29 @@
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+.button {
+    -fx-background-color: #A6B1E1;
+    -fx-border-color: #424874;
+    -fx-border-width: 0.5;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-font-size: 10px;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+}
+.button:hover {
+    -fx-background-color: #424874;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgb(66, 72, 116), 10, 0, 0, 0);
+}
+.text-area {
+    -fx-background-color: transparent;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #424874;
+}
+.text-area .content {
+    -fx-background-color:  #F4EEFF;
+}
+.text-area .scroll-bar:vertical {
+    -fx-opacity: 0;
+}

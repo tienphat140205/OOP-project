@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="600.0" stylesheets="@../UserCSS/BookCell.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sourceCode.UserControllers.BookViews.BookCellController">
+   <Label id="title" fx:id="titleLabel" layoutX="130.0" layoutY="14.0" text="Title" />
+   <Label id="ISBN" fx:id="isbnLabel" layoutX="133.0" layoutY="49.0" text="ISBN" />
+   <Label id="author" fx:id="authorLabel" layoutX="330.0" layoutY="49.0" text="Author" />
+   <Pane prefHeight="145.0" prefWidth="125.0">
+      <ImageView fx:id="bookImage" fitHeight="131.0" fitWidth="98.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/templateCover.png" />
+         </image></ImageView>
+   </Pane>
+   <TextArea fx:id="descriptionTextArea" editable="false" layoutX="125.0" layoutY="67.0" prefHeight="62.0" prefWidth="472.0" text="Description: " wrapText="true" />
+</AnchorPane>
